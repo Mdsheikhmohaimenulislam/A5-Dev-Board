@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev Board</title>
+<!-- Daisyui Cdn links -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.24/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<!-- Font Awesome  Cdn link-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <header>
+        <nav class="w-11/12">
+            <div class="navbar rounded-lg justify-between ml-10 mt-5 bg-yellow-500">
+                <div class="flex   space-x-2">
+                    <img src="./assets/logo.png" alt="">
+                  <a class="text-xl">DevBoard</a>
+                </div>
+                <div class="flex-none space-x-2">
+                    <i class="fa-solid fa-square-check"></i>
+                    <span>23</span>
+                  <button class="btn-bg-none">
+                    <img class="p-5" src="./assets/theme-btn.png" alt="">
+                  </button>
+                </div>
+              </div>
+        </nav>
+
+        <section class="max-w-screen-xl mx-auto mt-5">
+            <section class="grid grid-cols-6 ">
+                <section class="min-h-[100px] bg-yellow-500 rounded-lg col-start-1  col-end-6 w-11/12">
+                    <section class="grid grid-cols-3 m-5">
+                        <div class=" bg-[#a2d2ff] rounded-lg p-5">
+                            <p class="text-base bg-white w-20 p-1 mb-1 rounded-md">ShopEase</p>
+                            <h3 class="text-xl font-bold m-2">Fix Mobile Button Issue </h3>
+                            <p class="text-sm bg-white p-1 rounded-md w-60">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+                                and ensure onClick works properly
+                            </p>
+                            <hr class="mt-5 border-dashed">
+                            <div class="flex justify-between mt-5">
+                                <div>
+                                    <p>Deadline</p>
+                                    <p>21 March 2025</p>
+                                </div>
+                                <button class="btn ">Completed</button>
+                            </div>
+                        </div>
+                    </section>
+                </section>
+                <section class="min-h-[200px] bg-green-500 rounded-lg col-end-8 col-span-2 w-11/12"></section>
+            </section>
+        </section>
+    </header>
+</body>
+</html>
