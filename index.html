@@ -22,7 +22,7 @@
                 <div class="flex-none space-x-2">
                     <div class="space-x-2 bg-[#EDF1FC] p-1 rounded-3xl">
                         <i class="fa-solid fa-square-check text-blue-500"></i>
-                        <span class="font-bold">23</span>
+                        <span id="add-number" class="font-bold">23</span>
                     </div>
                   <button class="btn-bg-none bg-[#EDF1FC] rounded-full ">
                     <img class="p-1" src="./assets/theme-btn.png" alt="">
@@ -43,7 +43,7 @@
                             "></i>
                             <div class="ml-5 text-sm">
                                 <p>Task Assigned </p>
-                                <span>05</span>
+                                <span id="task-assigend">6</span>
                             </div>
                         </div>
 
@@ -59,12 +59,12 @@
                         <div class="flex bg-[#EDF1FC] rounded-lg p-5 m-2  h-20 w-40 -ml-5 col-span-2 ">
                             <span class="bg-white  rounded-full w-6 p-1 h-9"><img class="w-5 mt-1 h-5" src="./assets/calender.png" alt=""></span>
                             <div class="ml-3">
-                                <p>Wed ,</p>
-                                <p>Jul 28 2025 </p>
+                                
+                                <p id="dates"></p>
                             </div>
                         </div>
                     </section>
- 
+ <hr class="border-dashed  bg-[#EDF1FC]">
                     <section class="grid grid-cols-3 m-5 space-x-5 space-y-5">
 <!-- First Card -->
                         <div class=" bg-[#EDF1FC] rounded-lg p-5 mt-5 ml-4">
@@ -79,7 +79,7 @@
                                     <p>Deadline</p>
                                     <p>21 March 2025</p>
                                 </div>
-                                <button class="btn bg-blue-500 text-white">Completed</button>
+                                <button id="card-btn" class="btn bg-blue-500 text-white">Completed</button>
                             </div>
                         </div>
 <!-- Second card -->
@@ -94,7 +94,7 @@
                                     <p>Deadline</p>
                                     <p>21 March 2025</p>
                                 </div>
-                                <button class="btn bg-blue-500 text-white">Completed</button>
+                                <button id="second-btn" class="btn bg-blue-500 text-white">Completed</button>
                             </div>
                         </div>
 <!-- third card -->
@@ -110,7 +110,7 @@
                                     <p>Deadline</p>
                                     <p>21 March 2025</p>
                                 </div>
-                                <button class="btn bg-blue-500 text-white">Completed</button>
+                                <button id="third-btn" class="btn bg-blue-500 text-white">Completed</button>
                             </div>
                         </div>
 <!-- Fourth Card -->
@@ -126,7 +126,7 @@
                                     <p>Deadline</p>
                                     <p>21 March 2025</p>
                                 </div>
-                                <button class="btn bg-blue-500 text-white">Completed</button>
+                                <button id="fourth-btn" class="btn bg-blue-500 text-white">Completed</button>
                             </div>
                         </div>
 <!-- Fifth Card -->
@@ -141,7 +141,7 @@
                                     <p>Deadline</p>
                                     <p>21 March 2025</p>
                                 </div>
-                                <button class="btn bg-blue-500 text-white">Completed</button>
+                                <button id="fifth-btn" class="btn bg-blue-500 text-white">Completed</button>
                             </div>
                         </div>
 <!-- Sixth Card -->
@@ -156,7 +156,7 @@
                                     <p>Deadline</p>
                                     <p>21 March 2025</p>
                                 </div>
-                                <button class="btn bg-blue-500 text-white">Completed</button>
+                                <button id="sixth-btn" class="btn bg-blue-500 text-white">Completed</button>
                             </div>
                         </div>
                     </section>
@@ -168,12 +168,19 @@
                                 <i class="fa-solid fa-clock-rotate-left"></i>
                                 <p>Activity Log</p>
                             </div>
-                            <button class="btn bg-blue-500 text-white mt-5">Clear History</button>
+                            <button id="clear-history" class="btn bg-blue-500 text-white mt-5">Clear History</button>
                         </div>
                     </section>
+                    <hr class="border-dashed  bg-[#EDF1FC] mt-5">
+                    <div id="show-sms" class="p-5">
+                        
+                    </div>
                 </section>
             </section>
         </section>
     </main>
+    <script src="./Script/script.js"></script>
+    <script src="./Script/timeAndDate.js"></script>
+    <script src="./Script/clearHistory.js"></script>
 </body>
 </html>
