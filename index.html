@@ -11,33 +11,37 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
-<body>
-    <header>
-        <nav class="w-11/12">
-            <div class="navbar rounded-lg justify-between ml-10 mt-5 bg-yellow-500">
+<body class="bg-[#EDF1FC]">
+    <main>
+        <nav class="w-11/12 ">
+            <div class="navbar rounded-lg justify-between ml-10 mt-5 bg-white">
                 <div class="flex   space-x-2">
                     <img src="./assets/logo.png" alt="">
-                  <a class="text-xl">DevBoard</a>
+                  <a class="text-xl text-[#4E6A71]">Dev <span class="font-bold">Board</span></a>
                 </div>
                 <div class="flex-none space-x-2">
-                    <i class="fa-solid fa-square-check"></i>
-                    <span>23</span>
-                  <button class="btn-bg-none">
-                    <img class="p-5" src="./assets/theme-btn.png" alt="">
+                    <div class="space-x-2 bg-[#EDF1FC] p-1 rounded-3xl">
+                        <i class="fa-solid fa-square-check text-blue-500"></i>
+                        <span class="font-bold">23</span>
+                    </div>
+                  <button class="btn-bg-none bg-[#EDF1FC] rounded-full ">
+                    <img class="p-1" src="./assets/theme-btn.png" alt="">
                   </button>
                 </div>
               </div>
         </nav>
 
-        <section class="max-w-screen-xl mx-auto mt-5">
-            <section class="grid grid-cols-6 ">
-                <section class="min-h-[100px] bg-yellow-500 rounded-lg col-start-1  col-end-6 w-11/12">
-                    <section class="grid grid-cols-3 m-5 space-x-5 space-y-5">
+        <section class="max-w-screen-xl mx-auto mt-5 mb-5">
+            <section class="grid grid-cols-6 mb-5">
+                <section class="min-h-[100px] bg-white rounded-lg col-start-1  col-end-6 mr-8 mb-5">
+<!-- Top Card Section  -->
+                    <section class="max-w-screen-xl mx-auto space-y-5 grid grid-cols-12 ">
 
+                        <div class=" flex  bg-[#EDF1FC] rounded-lg p-2 col-span-2 h-20 w-40 m-5 ml-10">
+                            <i class="fa-solid fa-square-check mt-5 text-center content-center ml-1 text-blue-500 bg-white h-6  w-6 rounded-full
 
-                        <div class=" flex  bg-[#EDF1FC] rounded-lg p-2  h-20 w-40">
-                            <i class="fa-solid fa-square-check mt-5 ml-1"></i>
-                            <div class="ml-5">
+                            "></i>
+                            <div class="ml-5 text-sm">
                                 <p>Task Assigned </p>
                                 <span>05</span>
                             </div>
@@ -45,22 +49,25 @@
 
 
 
-                        <div class="flex bg-[#EDF1FC] rounded-lg p-5  h-20 ">
-                            <img class="w-10 h-10" src="./assets/board.png" alt="">
-                            <p>Discover Something New Today!</p>
+                        <div class="flex bg-[#EDF1FC] bg-gradient-to-r from-[#3752FD] via-[#6C7FFA] to-[#9BA8F8] space-x-5 rounded-lg p-5 justify-center  h-20 col-span-8 mr-10 ml-10">
+                            <img class="w-15  h-15" src="./assets/board.png" alt="">
+                            <p class="text-xl">Discover Something New Today!</p>
                         </div>
 
 
 
-                        <div class="flex bg-[#EDF1FC] rounded-lg p-5  h-20 w-40 col-start-3 row-end-2 ">
-                            <img class="w-5 h-5" src="./assets/calender.png" alt="">
+                        <div class="flex bg-[#EDF1FC] rounded-lg p-5 m-2  h-20 w-40 -ml-5 col-span-2 ">
+                            <span class="bg-white  rounded-full w-6 p-1 h-9"><img class="w-5 mt-1 h-5" src="./assets/calender.png" alt=""></span>
                             <div class="ml-3">
                                 <p>Wed ,</p>
                                 <p>Jul 28 2025 </p>
                             </div>
                         </div>
+                    </section>
+ 
+                    <section class="grid grid-cols-3 m-5 space-x-5 space-y-5">
 <!-- First Card -->
-                        <div class=" bg-[#EDF1FC] rounded-lg p-5 ">
+                        <div class=" bg-[#EDF1FC] rounded-lg p-5 mt-5 ml-4">
                             <p class="text-base bg-white w-20 p-1 mb-1 rounded-md">ShopEase</p>
                             <h3 class="text-xl font-bold m-2">Fix Mobile Button Issue </h3>
                             <p class="text-sm bg-white p-1 rounded-md w-60">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
@@ -72,7 +79,7 @@
                                     <p>Deadline</p>
                                     <p>21 March 2025</p>
                                 </div>
-                                <button class="btn ">Completed</button>
+                                <button class="btn bg-blue-500 text-white">Completed</button>
                             </div>
                         </div>
 <!-- Second card -->
@@ -87,7 +94,7 @@
                                     <p>Deadline</p>
                                     <p>21 March 2025</p>
                                 </div>
-                                <button class="btn ">Completed</button>
+                                <button class="btn bg-blue-500 text-white">Completed</button>
                             </div>
                         </div>
 <!-- third card -->
@@ -103,7 +110,7 @@
                                     <p>Deadline</p>
                                     <p>21 March 2025</p>
                                 </div>
-                                <button class="btn ">Completed</button>
+                                <button class="btn bg-blue-500 text-white">Completed</button>
                             </div>
                         </div>
 <!-- Fourth Card -->
@@ -119,12 +126,12 @@
                                     <p>Deadline</p>
                                     <p>21 March 2025</p>
                                 </div>
-                                <button class="btn ">Completed</button>
+                                <button class="btn bg-blue-500 text-white">Completed</button>
                             </div>
                         </div>
 <!-- Fifth Card -->
                         <div class=" bg-[#EDF1FC] rounded-lg p-5">
-                            <p class="text-base bg-white w-20 p-1 mb-1 rounded-md">Google LLC</p>
+                            <p class="text-base bg-white w-20 text-sm mb-1 rounded-md">Google LLC</p>
                             <h3 class="text-xl font-bold m-2">Integrate OpenAI API </h3>
                             <p class="text-sm bg-white p-1 rounded-md w-60">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
                             </p>
@@ -134,7 +141,7 @@
                                     <p>Deadline</p>
                                     <p>21 March 2025</p>
                                 </div>
-                                <button class="btn ">Completed</button>
+                                <button class="btn bg-blue-500 text-white">Completed</button>
                             </div>
                         </div>
 <!-- Sixth Card -->
@@ -149,14 +156,24 @@
                                     <p>Deadline</p>
                                     <p>21 March 2025</p>
                                 </div>
-                                <button class="btn ">Completed</button>
+                                <button class="btn bg-blue-500 text-white">Completed</button>
                             </div>
                         </div>
                     </section>
                 </section>
-                <section class="min-h-[200px] bg-green-500 rounded-lg col-end-8 col-span-2 w-11/12"></section>
+                <section class="min-h-[200px]  bg-white rounded-lg col-end-8 col-span-2 w-11/12 mb-5">
+                    <section class="mt-5 ml-10">
+                        <div>
+                            <div class="flex space-x-2">
+                                <i class="fa-solid fa-clock-rotate-left"></i>
+                                <p>Activity Log</p>
+                            </div>
+                            <button class="btn bg-blue-500 text-white mt-5">Clear History</button>
+                        </div>
+                    </section>
+                </section>
             </section>
         </section>
-    </header>
+    </main>
 </body>
 </html>
