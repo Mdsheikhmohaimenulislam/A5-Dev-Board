@@ -12,173 +12,174 @@
 
 </head>
 <body class="bg-[#EDF1FC]">
-    <main>
-        <nav class="w-11/12 ">
-            <div class="navbar rounded-lg justify-between ml-10 mt-5 bg-white">
-                <div class="flex   space-x-2">
-                    <img src="./assets/logo.png" alt="">
-                  <a class="text-xl text-[#4E6A71]">Dev <span class="font-bold">Board</span></a>
-                </div>
-                <div class="flex-none space-x-2">
-                    <div class="space-x-2 bg-[#EDF1FC] p-1 rounded-3xl">
-                        <i class="fa-solid fa-square-check text-blue-500"></i>
-                        <span id="add-number" class="font-bold">23</span>
+        <header>
+            <nav class="w-11/12 mt-8">
+                <div class="navbar rounded-lg justify-between ml-10 bg-white">
+                    <div class="flex   space-x-2">
+                        <img src="./assets/logo.png" alt="">
+                      <a class="text-xl text-[#4E6A71]">Dev<span class="font-bold">Board</span></a>
                     </div>
-                  <button class="btn-bg-none bg-[#EDF1FC] rounded-full ">
-                    <img class="p-1" src="./assets/theme-btn.png" alt="">
-                  </button>
-                </div>
-              </div>
-        </nav>
-
-        <section class="max-w-screen-xl mx-auto mt-5 mb-5">
-            <section class="grid grid-cols-6 mb-5">
-                <section class="min-h-[100px] bg-white rounded-lg col-start-1  col-end-6 mr-8 mb-5">
-<!-- Top Card Section  -->
-                    <section class="max-w-screen-xl mx-auto space-y-5 grid grid-cols-12 ">
-
-                        <div class=" flex  bg-[#EDF1FC] rounded-lg p-2 col-span-2 h-20 w-40 m-5 ml-10">
-                            <i class="fa-solid fa-square-check mt-5 text-center content-center ml-1 text-blue-500 bg-white h-6  w-6 rounded-full
-
-                            "></i>
-                            <div class="ml-5 text-sm">
-                                <p>Task Assigned </p>
-                                <span id="task-assigend">6</span>
-                            </div>
+                    <div class="flex-none space-x-2">
+                        <div class="space-x-2 bg-[#EDF1FC] p-1 rounded-3xl">
+                            <i class="fa-solid fa-square-check text-blue-500"></i>
+                            <span id="add-number" class="font-bold">23</span>
                         </div>
-
-
-
-                        <div class="flex bg-[#EDF1FC] bg-gradient-to-r from-[#3752FD] via-[#6C7FFA] to-[#9BA8F8] space-x-5 rounded-lg p-5 justify-center  h-20 col-span-8 mr-10 ml-10">
-                            <img class="w-15  h-15" src="./assets/board.png" alt="">
-                            <p class="text-xl">Discover Something New Today!</p>
-                        </div>
-
-
-
-                        <div class="flex bg-[#EDF1FC] rounded-lg p-5 m-2  h-20 w-40 -ml-5 col-span-2 ">
-                            <span class="bg-white  rounded-full w-6 p-1 h-9"><img class="w-5 mt-1 h-5" src="./assets/calender.png" alt=""></span>
-                            <div class="ml-3">
-                                
-                                <p id="dates"></p>
-                            </div>
-                        </div>
-                    </section>
- <hr class="border-dashed  bg-[#EDF1FC]">
-                    <section class="grid grid-cols-3 m-5 space-x-5 space-y-5">
-<!-- First Card -->
-                        <div class=" bg-[#EDF1FC] rounded-lg p-5 mt-5 ml-4">
-                            <p class="text-base bg-white w-20 p-1 mb-1 rounded-md">ShopEase</p>
-                            <h3 class="text-xl font-bold m-2">Fix Mobile Button Issue </h3>
-                            <p class="text-sm bg-white p-1 rounded-md w-60">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
-                                and ensure onClick works properly
-                            </p>
-                            <hr class="mt-5 border-dashed">
-                            <div class="flex justify-between mt-5">
-                                <div>
-                                    <p>Deadline</p>
-                                    <p>21 March 2025</p>
-                                </div>
-                                <button id="card-btn" class="btn bg-blue-500 text-white">Completed</button>
-                            </div>
-                        </div>
-<!-- Second card -->
-                        <div class=" bg-[#EDF1FC] rounded-lg p-5">
-                            <p class="text-base bg-white w-20 p-1 mb-1 rounded-md">CloudSync</p>
-                            <h3 class="text-xl font-bold m-2">Add Dark Mode</h3>
-                            <p class="text-sm bg-white p-1 rounded-md w-60">Store the user's preference in localStorage, update CSS variables dynamically, and apply a smooth transition effect.
-                            </p>
-                            <hr class="mt-5 border-dashed">
-                            <div class="flex justify-between mt-5">
-                                <div>
-                                    <p>Deadline</p>
-                                    <p>21 March 2025</p>
-                                </div>
-                                <button id="second-btn" class="btn bg-blue-500 text-white">Completed</button>
-                            </div>
-                        </div>
-<!-- third card -->
-                        <div class=" bg-[#EDF1FC] rounded-lg p-5">
-                            <p class="text-base bg-white w-20 p-1 mb-1 rounded-md">SwiftPay</p>
-                            <h3 class="text-xl font-bold m-2">Optimize  Home page </h3>
-                            <p class="text-sm bg-white p-1 rounded-md w-60">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
-                                and ensure onClick works properly
-                            </p>
-                            <hr class="mt-5 border-dashed">
-                            <div class="flex justify-between mt-5">
-                                <div>
-                                    <p>Deadline</p>
-                                    <p>21 March 2025</p>
-                                </div>
-                                <button id="third-btn" class="btn bg-blue-500 text-white">Completed</button>
-                            </div>
-                        </div>
-<!-- Fourth Card -->
-                        <div class=" bg-[#EDF1FC] rounded-lg p-5">
-                            <p class="text-base bg-white w-20 p-1 mb-1 rounded-md">Meta</p>
-                            <h3 class="text-xl font-bold m-2">Add new emoji 🤲</h3>
-                            <p class="text-sm bg-white p-1 rounded-md w-60">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
-                                and ensure onClick works properly
-                            </p>
-                            <hr class="mt-5 border-dashed">
-                            <div class="flex justify-between mt-5">
-                                <div>
-                                    <p>Deadline</p>
-                                    <p>21 March 2025</p>
-                                </div>
-                                <button id="fourth-btn" class="btn bg-blue-500 text-white">Completed</button>
-                            </div>
-                        </div>
-<!-- Fifth Card -->
-                        <div class=" bg-[#EDF1FC] rounded-lg p-5">
-                            <p class="text-base bg-white w-20 text-sm mb-1 rounded-md">Google LLC</p>
-                            <h3 class="text-xl font-bold m-2">Integrate OpenAI API </h3>
-                            <p class="text-sm bg-white p-1 rounded-md w-60">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
-                            </p>
-                            <hr class="mt-5 border-dashed">
-                            <div class="flex justify-between mt-5">
-                                <div>
-                                    <p>Deadline</p>
-                                    <p>21 March 2025</p>
-                                </div>
-                                <button id="fifth-btn" class="btn bg-blue-500 text-white">Completed</button>
-                            </div>
-                        </div>
-<!-- Sixth Card -->
-                        <div class=" bg-[#EDF1FC] rounded-lg p-5">
-                            <p class="text-base bg-white w-20 p-1 mb-1 rounded-md">Glassdoar</p>
-                            <h3 class="text-xl font-bold m-2">Improve Job searching </h3>
-                            <p class="text-sm bg-white p-1 rounded-md w-60">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
-                            </p>
-                            <hr class="mt-5 border-dashed">
-                            <div class="flex justify-between mt-5">
-                                <div>
-                                    <p>Deadline</p>
-                                    <p>21 March 2025</p>
-                                </div>
-                                <button id="sixth-btn" class="btn bg-blue-500 text-white">Completed</button>
-                            </div>
-                        </div>
-                    </section>
-                </section>
-                <section class="min-h-[200px]  bg-white rounded-lg col-end-8 col-span-2 w-11/12 mb-5">
-                    <section class="mt-5 ml-10">
-                        <div>
-                            <div class="flex space-x-2">
-                                <i class="fa-solid fa-clock-rotate-left"></i>
-                                <p>Activity Log</p>
-                            </div>
-                            <button id="clear-history" class="btn bg-blue-500 text-white mt-5">Clear History</button>
-                        </div>
-                    </section>
-                    <hr class="border-dashed  bg-[#EDF1FC] mt-5">
-                    <div id="show-sms" class="p-5">
-                        
+                      <button id="color-btn" class="btn-bg-none bg-[#EDF1FC] rounded-full ">
+                        <img class="p-1" src="./assets/theme-btn.png" alt="">
+                      </button>
                     </div>
+                  </div>
+            </nav>
+        </header>
+        <main>
+            <section class="max-w-screen-xl mx-auto mt-5 mb-5">
+                <section class="grid grid-cols-6 mb-5">
+                    <section class="min-h-[100px] bg-white rounded-lg col-start-1  col-end-6 mr-8 mb-5">
+    <!-- Top Card Section  -->
+                        <section class="max-w-screen-xl mx-auto space-y-5 grid grid-cols-12 ">
+    
+                            <div class=" flex  bg-[#EDF1FC] rounded-lg p-2 col-span-2 h-20 w-40 m-5 ml-10">
+                                <i class="fa-solid fa-square-check mt-5 text-center content-center ml-1 text-blue-500 bg-white h-6  w-6 rounded-full
+    
+                                "></i>
+                                <div class="ml-5 text-sm">
+                                    <p>Task Assigned </p>
+                                    <span id="task-assigend">6</span>
+                                </div>
+                            </div>
+    
+    
+    
+                            <div id="discover-btn" class="flex bg-[#EDF1FC] bg-gradient-to-r from-[#3752FD] via-[#6C7FFA] to-[#9BA8F8] space-x-5 rounded-lg p-5 justify-center  h-20 col-span-8 mr-10 ml-10 cursor-pointer">
+                                <img class="w-15  h-15" src="./assets/board.png" alt="">
+                                <p class="text-xl">Discover Something New Today!</p>
+                            </div>
+    
+    
+    
+                            <div class="flex bg-[#EDF1FC] rounded-lg p-5 m-2  h-20 w-40 -ml-5 col-span-2 ">
+                                <span class="bg-white  rounded-full w-6 p-1 h-9"><img class="w-5 mt-1 h-5" src="./assets/calender.png" alt=""></span>
+                                <div class="ml-3">
+                                    
+                                    <p id="dates"></p>
+                                </div>
+                            </div>
+                        </section>
+     <hr class="border-dashed  bg-[#EDF1FC]">
+                        <section class="grid grid-cols-3 m-5 space-x-5 space-y-5">
+    <!-- First Card -->
+                            <div class=" bg-[#EDF1FC] rounded-lg p-5 mt-5 ml-4">
+                                <p class="text-base bg-white w-20 p-1 mb-1 rounded-md">ShopEase</p>
+                                <h3 class="text-xl font-bold m-2">Fix Mobile Button Issue </h3>
+                                <p class="text-sm bg-white p-1 rounded-md w-60">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+                                    and ensure onClick works properly
+                                </p>
+                                <hr class="mt-5 border-dashed">
+                                <div class="flex justify-between mt-5">
+                                    <div>
+                                        <p>Deadline</p>
+                                        <p>21 March 2025</p>
+                                    </div>
+                                    <button id="card-btn" class="btn bg-blue-500 text-white">Completed</button>
+                                </div>
+                            </div>
+    <!-- Second card -->
+                            <div class=" bg-[#EDF1FC] rounded-lg p-5">
+                                <p class="text-base bg-white w-20 p-1 mb-1 rounded-md">CloudSync</p>
+                                <h3 class="text-xl font-bold m-2">Add Dark Mode</h3>
+                                <p class="text-sm bg-white p-1 rounded-md w-60">Store the user's preference in localStorage, update CSS variables dynamically, and apply a smooth transition effect.
+                                </p>
+                                <hr class="mt-5 border-dashed">
+                                <div class="flex justify-between mt-5">
+                                    <div>
+                                        <p>Deadline</p>
+                                        <p>21 March 2025</p>
+                                    </div>
+                                    <button id="second-btn" class="btn bg-blue-500 text-white">Completed</button>
+                                </div>
+                            </div>
+    <!-- third card -->
+                            <div class=" bg-[#EDF1FC] rounded-lg p-5">
+                                <p class="text-base bg-white w-20 p-1 mb-1 rounded-md">SwiftPay</p>
+                                <h3 class="text-xl font-bold m-2">Optimize  Home page </h3>
+                                <p class="text-sm bg-white p-1 rounded-md w-60">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+                                    and ensure onClick works properly
+                                </p>
+                                <hr class="mt-5 border-dashed">
+                                <div class="flex justify-between mt-5">
+                                    <div>
+                                        <p>Deadline</p>
+                                        <p>21 March 2025</p>
+                                    </div>
+                                    <button id="third-btn" class="btn bg-blue-500 text-white">Completed</button>
+                                </div>
+                            </div>
+    <!-- Fourth Card -->
+                            <div class=" bg-[#EDF1FC] rounded-lg p-5">
+                                <p class="text-base bg-white w-20 p-1 mb-1 rounded-md">Meta</p>
+                                <h3 class="text-xl font-bold m-2">Add new emoji 🤲</h3>
+                                <p class="text-sm bg-white p-1 rounded-md w-60">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+                                    and ensure onClick works properly
+                                </p>
+                                <hr class="mt-5 border-dashed">
+                                <div class="flex justify-between mt-5">
+                                    <div>
+                                        <p>Deadline</p>
+                                        <p>21 March 2025</p>
+                                    </div>
+                                    <button id="fourth-btn" class="btn bg-blue-500 text-white">Completed</button>
+                                </div>
+                            </div>
+    <!-- Fifth Card -->
+                            <div class=" bg-[#EDF1FC] rounded-lg p-5">
+                                <p class="text-base bg-white w-20 text-sm mb-1 rounded-md">Google LLC</p>
+                                <h3 class="text-xl font-bold m-2">Integrate OpenAI API </h3>
+                                <p class="text-sm bg-white p-1 rounded-md w-60">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+                                </p>
+                                <hr class="mt-5 border-dashed">
+                                <div class="flex justify-between mt-5">
+                                    <div>
+                                        <p>Deadline</p>
+                                        <p>21 March 2025</p>
+                                    </div>
+                                    <button id="fifth-btn" class="btn bg-blue-500 text-white">Completed</button>
+                                </div>
+                            </div>
+    <!-- Sixth Card -->
+                            <div class=" bg-[#EDF1FC] rounded-lg p-5">
+                                <p class="text-base bg-white w-20 p-1 mb-1 rounded-md">Glassdoar</p>
+                                <h3 class="text-xl font-bold m-2">Improve Job searching </h3>
+                                <p class="text-sm bg-white p-1 rounded-md w-60">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+                                </p>
+                                <hr class="mt-5 border-dashed">
+                                <div class="flex justify-between mt-5">
+                                    <div>
+                                        <p>Deadline</p>
+                                        <p>21 March 2025</p>
+                                    </div>
+                                    <button id="sixth-btn" class="btn bg-blue-500 text-white">Completed</button>
+                                </div>
+                            </div>
+                        </section>
+                    </section>
+                    <section class="min-h-[200px]  bg-white rounded-lg col-end-8 col-span-2 w-11/12 mb-5">
+                        <section class="mt-5 ml-10">
+                            <div>
+                                <div class="flex space-x-2">
+                                    <i class="fa-solid fa-clock-rotate-left"></i>
+                                    <p>Activity Log</p>
+                                </div>
+                                <button id="clear-history" class="btn bg-blue-500 hover:bg-blue-500 text-white mt-5">Clear History</button>
+                            </div>
+                        </section>
+                        <hr class="border-dashed  bg-[#EDF1FC] mt-5">
+                        <div id="show-sms" class="p-5">
+                            
+                        </div>
+                    </section>
                 </section>
             </section>
-        </section>
-    </main>
+        </main>
     <script src="./Script/script.js"></script>
     <script src="./Script/timeAndDate.js"></script>
     <script src="./Script/clearHistory.js"></script>

@@ -33,7 +33,7 @@ document.getElementById('card-btn').addEventListener('click',function(event){
                
                const storTime = document.createElement('storTime');
                
-               storTime.innerHTML = `<h3 class="bg-[#EDF1FC] p-2">You have completed the task, Fix Mobile Button Issue  ${time} </h3>`;
+               storTime.innerHTML = `<h3 class="bg-[#EDF1FC] p-5 rounded-lg mb-2">You have completed the task, Fix Mobile Button Issue  ${time} </h3>`;
                
                currentTime.appendChild(storTime);
 
@@ -96,7 +96,7 @@ document.getElementById('second-btn').addEventListener('click',function(event){
                
                const storTime = document.createElement('storTime');
                
-               storTime.innerHTML = `<h3 class="bg-[#EDF1FC] p-2">You have completed the task, Add Dark Mode ${time} </h3>`;
+               storTime.innerHTML = `<h3 class="bg-[#EDF1FC] p-5 rounded-lg mb-2">You have completed the task, Add Dark Mode ${time} </h3>`;
                
                currentTime.appendChild(storTime);
             
@@ -156,7 +156,7 @@ document.getElementById('third-btn').addEventListener('click',function(event){
                
                const storTime = document.createElement('storTime');
                
-               storTime.innerHTML = `<h3 class="bg-[#EDF1FC] p-2">You have completed the task, Optimize Home page   ${time} </h3>`;
+               storTime.innerHTML = `<h3 class="bg-[#EDF1FC] p-5 rounded-lg mb-2">You have completed the task, Optimize Home page   ${time} </h3>`;
                
                currentTime.appendChild(storTime);
             
@@ -218,7 +218,7 @@ document.getElementById('fourth-btn').addEventListener('click',function(event){
                
                const storTime = document.createElement('storTime');
                
-               storTime.innerHTML = `<h3 class="bg-[#EDF1FC] p-2">You have completed the task, Add new emoji 🤲  ${time} </h3>`;
+               storTime.innerHTML = `<h3 class="bg-[#EDF1FC] p-5 rounded-lg mb-2">You have completed the task, Add new emoji 🤲  ${time} </h3>`;
                
                currentTime.appendChild(storTime);
             
@@ -279,7 +279,7 @@ document.getElementById('fifth-btn').addEventListener('click',function(event){
                
                const storTime = document.createElement('storTime');
                
-               storTime.innerHTML = `<h3 class="bg-[#EDF1FC] p-2">You have completed the task, Integrate OpenAI API ${time} </h3>`;
+               storTime.innerHTML = `<h3 class="bg-[#EDF1FC] p-5 rounded-lg mb-2">You have completed the task, Integrate OpenAI API ${time} </h3>`;
                
                currentTime.appendChild(storTime);
             
@@ -339,7 +339,7 @@ document.getElementById('sixth-btn').addEventListener('click',function(event){
                
                const storTime = document.createElement('storTime');
                
-               storTime.innerHTML = `<h3 class="bg-[#EDF1FC] p-2">You have completed the task, Improve Job searching ${time} </h3>`;
+               storTime.innerHTML = `<h3 class="bg-[#EDF1FC] p-5 rounded-lg">You have completed the task, Improve Job searching ${time} </h3>`;
                
                currentTime.appendChild(storTime);
             
