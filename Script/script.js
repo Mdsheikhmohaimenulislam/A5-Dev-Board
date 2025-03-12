@@ -320,10 +320,12 @@ document.getElementById('sixth-btn').addEventListener('click',function(event){
     const addNumber = document.getElementById('add-number').innerText;
     const convertAddNumber = parseFloat(addNumber);
 
-    if(convertTaskAssigend){
+    if(convertTaskAssigend === convertIncrement){
         alert("Board Updated Successfully");
         const sum = convertTaskAssigend - convertIncrement;
-        document.getElementById('task-assigend').innerText = sum;
+            alert("sob ses")
+            document.getElementById('task-assigend').innerText = sum;
+
 
         if(convertAddNumber){
 
